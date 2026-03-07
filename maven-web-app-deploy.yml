@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: java-webapp
-        image: varun/javawebapp:latest
+        image: varun212006/javawebapp:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
