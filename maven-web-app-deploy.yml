@@ -24,11 +24,11 @@ kind: Service
 metadata:
   name: java-webapp-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: java-webapp
   ports:
   - protocol: TCP
     port: 80
     targetPort: 8080
-    nodePort: 30007
+
