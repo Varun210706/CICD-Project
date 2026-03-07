@@ -4,10 +4,10 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        System.out.println("Application started in Kubernetes!");
+        System.out.println("Application started!");
 
         while(true){
-            System.out.println("Running inside Kubernetes...");
+            System.out.println("Running in Kubernetes...");
             Thread.sleep(5000);
         }
 
