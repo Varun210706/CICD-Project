@@ -1,9 +1,6 @@
 <html>
-<head>
-<title>CI/CD Demo</title>
-</head>
 <body>
-<h1>Hello from Kubernetes CI/CD Pipeline</h1>
-<h2>Application deployed successfully on Tomcat</h2>
+<h1>Continuous Delivery Pipeline Successful 🚀</h1>
+<h2>Deployed using Jenkins, Docker and Kubernetes</h2>
 </body>
 </html>
